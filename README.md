@@ -10,8 +10,11 @@ Time Display: The current time is synchronized using NTP (Network Time Protocol)
 Calendar: A simple calendar display that highlights the current day.
 Weather Graphics: Icons representing sunrise, sunset, humidity, and temperature.
 Customizable City: Easily customize your city/town and country for localized weather.
+
 Hardware Requirements
+
 ESP32 Board: The core hardware running the code.
+
 A devboard known as JC4827W543 known as CYD 543 Display: A Cheap-Yellow-Display (543 model) for showing weather and time data.
 Wi-Fi: Requires a Wi-Fi connection for fetching weather data and NTP synchronization.
 Libraries Used
