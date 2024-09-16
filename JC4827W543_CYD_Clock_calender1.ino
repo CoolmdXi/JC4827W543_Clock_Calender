@@ -2,8 +2,15 @@
 // ESP32 CYD (Cheap-Yellow-Display) Weather & Time Display
 // written by Larry Bank
 // Copyright (c) 2024 BitBank Software, Inc.
+
 // All credit to the above Author, much of the code from his original sketches at https://github.com/bitbank2/CYD_Projects/tree/main
-// altered to run on the 4.3" JC4827W543 w/resistive or capacitive touch
+// Most of the core code is Larry Bank's great work, and his efforts inspired me to 
+// modify and extend it for personal use.
+
+// For more information about Larry's work, visit https://github.com/LarryBank
+
+//  4.3" JC4827W543 w/resistive or capacitive touch
+
 #define LOG_TO_SERIAL
 // Define the display type used and the rest of the code should "just work"
 #define LCD DISPLAY_CYD_543
