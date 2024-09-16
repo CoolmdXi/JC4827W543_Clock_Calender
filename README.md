@@ -49,8 +49,8 @@ Calendar: A grid layout with the current month and days, highlighting the curren
  Original code by Larry Bank
  Copyright (c) 2024 BitBank Software, Inc.
  
- Adapted from Larry Bank's original work to improve reliability with the 543 board 
- and customized to fit my own needs. 
+ Adapted from Larry Bank's original work with the 543 board and customized to fit my own needs.
+  
  Most of the core code is Larry Bank's great work, and his efforts inspired me to 
  modify and extend it for personal use.
  For more information about Larry's work, visit https://github.com/LarryBank
