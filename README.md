@@ -5,7 +5,7 @@ ESP32 CYD Weather & Time Display
 This project is an ESP32-based weather and time display using the CYD (Cheap Yellow Display) screen. It pulls real-time weather data from OpenWeatherMap and displays it alongside the current date and time.
 
 Features
-Weather Information: Current temperature, humidity, and wind speed are fetched from OpenWeatherMap.
+Weather Information: Current temperature, humidity, and sunrise, sunset are fetched from OpenWeatherMap.
 Time Display: The current time is synchronized using NTP (Network Time Protocol).
 Calendar: A simple calendar display that highlights the current day.
 Weather Graphics: Icons representing sunrise, sunset, humidity, and temperature.
@@ -44,9 +44,8 @@ String town = "Brighton";
 String Country = "UK";
 Display Features
 Clock: A 7-segment styled digital clock with hours, minutes, and seconds.
-Weather Information: Displays temperature, humidity, and weather conditions.
+Weather Information: Displays temperature, humidity, and Sunrise and sunset.
 Icons: Graphical icons for sunrise, sunset, and humidity.
-Calendar: A grid layout with the current month and days, highlighting the current date.
 
  ESP32 CYD (Cheap-Yellow-Display) Weather & Time Display
  Original code by Larry Bank
