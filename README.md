@@ -40,8 +40,7 @@ Timezone Offset: Define your timezone offset relative to GMT in seconds. For exa
 #define TZ_OFFSET -(3600 * 5) // Eastern USA
 Customize Location: Update the town and Country variables with your preferred location:
 
-String town = "Brighton";
-String Country = "UK";
+
 Display Features
 Clock: A 7-segment styled digital clock with hours, minutes, and seconds.
 Weather Information: Displays temperature, humidity, and Sunrise and sunset.
