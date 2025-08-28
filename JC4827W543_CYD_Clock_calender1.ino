@@ -78,7 +78,7 @@ int iStartX, iStartY;
 uint16_t usColor = TFT_CYAN;  // time color
 
 const char *szMonths[] = { "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER" };
-const int iMonthLens[] = { 31, 28, 31, 30, 31, 30, 31, 30, 30, 31, 30, 31 };
+const int iMonthLens[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 31, 31 };
 const char *szDays[] = { "S", "M", "T", "W", "T", "F", "S" };
 void drawCalendar(struct tm *pTime, const GFXfont *pFont , int x, int y) {
   
